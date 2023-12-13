@@ -237,7 +237,9 @@ line-height: normal;
 
 
 /*swiper*/
-
+.foods__container{
+    padding: 0;
+}
 
 .foods{
     margin-top: 2.8125rem;
@@ -305,6 +307,7 @@ line-height: 118%;
 letter-spacing: -0.0255rem;
 margin-right: auto;
 }
+
 
 
 /*foter navigation*/
