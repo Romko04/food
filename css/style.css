@@ -410,7 +410,7 @@ margin-top: auto;
     background: #FFFDED;
     /* margin-top: 230px; */
     position: relative;
-    transition: all ease .3s;
+    transition: all ease .1s;
 }
 .about.scroll-down {
     margin-top: 0;
