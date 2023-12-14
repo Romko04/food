@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 const btnYet = document.querySelector('.footer__navigation-list__item-link--yet')
 const links = document.querySelectorAll('.footer__navigation-list__item-link')
 
-if (links.length > 3) {
+if (links.length > 4) {
     btnYet.classList.add('active')
     for (let i = 3; i < links.length; i++) {
         links[i].classList.add('hidden');
