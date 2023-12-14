@@ -319,15 +319,16 @@ margin-right: auto;
 }
 .footer__navigation-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
     align-items: stretch;
     /* height: 4.375rem; */
     width: 100%;
 }
 .footer__navigation-list.active{
     flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
 }
 .footer__navigation-list__item-link--yet{
     display: none;
