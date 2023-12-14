@@ -408,11 +408,17 @@ margin-top: auto;
 .about {
     border-radius: 50px 50px 0px 0px;
     background: #FFFDED;
-    margin-top: 28vh;
-position: relative;
-    /* top: -128px;  */
+    /* margin-top: 230px; */
+    position: relative;
+    transition: all ease .2s;
+}
+.about.scroll-down {
+    margin-top: 0;
 }
 
+.about.scroll-up {
+    margin-top: 1.9375rem;
+}
 .container--single {
     padding: 44px;
     
