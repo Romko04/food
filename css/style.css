@@ -321,7 +321,7 @@ margin-right: auto;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height: 4.375rem;
+    /* height: 4.375rem; */
     width: 100%;
 }
 .footer__navigation-list.active{
