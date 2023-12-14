@@ -535,9 +535,10 @@ letter-spacing: -0.0255rem;
         height: 3.9rem;
         width: 3.9rem;
     }
-
+    .container--single{
+        padding: 1.5625rem;
+    }
   }
-
   @media (max-width: 25.9375rem) {
     .about__specs-list__item{
         padding: 0.575rem 0.89rem;
