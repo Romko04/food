@@ -12,9 +12,15 @@ document.addEventListener('DOMContentLoaded', function () {
     swiper.slideTo(today - 1, 1000, true);
 
     let swiperNav = new Swiper('.nav__wrapper', {
-        slidesPerView: 4,
-        spaceBetween: 10,
+        slidesPerView: 3,
+        spaceBetween: 25,
+        breakpoints: {
+            356: {
+                slidesPerView: 4
+            }
+        }
     });
+    
 
 })
 
