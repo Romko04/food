@@ -252,13 +252,13 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1rem 0 0;
 }
 
 
 
 .daily {
-    margin-top: 3.8rem;
+    margin: 1.8rem 0;
 }
 
 .daily__content {
@@ -325,14 +325,14 @@ line-height: normal;
 }
 
 .foods{
-    margin-top: 4.5rem;
+    /* margin-top: 4.5rem; */
     margin-bottom: 4.5rem;
 }
 
 .swiper-slide__text-top {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 1.5rem;
 }
 .swiper-slide__img-wrapper{
@@ -360,6 +360,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 2.2rem; /* 122.222% */
 letter-spacing: -0.408px;
+text-transform: capitalize;
 }
 .swiper-slide__date {
     color: #595959;
@@ -413,6 +414,12 @@ margin-right: auto;
 
 .footer {
     margin-bottom: 3.3rem;
+    position: fixed;
+    /* right: 0; */
+    top: 88vh;
+    z-index: 3;
+    max-width: 50rem;
+    width: 100%;
 }
 .footer__container{
     position: relative;
