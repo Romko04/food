@@ -164,18 +164,7 @@ a {
     text-decoration: none;
 }
 
-body {
-    line-height: 1;
-    min-height: 100vh;
-    font-family: 'Inter', sans-serif;
-    background-color: #fff;
-    min-height: -webkit-fill-available;
-}
 
-  
-  html {
-    height: -webkit-fill-available;
-  }
 
 
 .wrapper {
@@ -224,11 +213,24 @@ body {
 }
 
 
-body {
+/* body {
     line-height: 1;
     height: 100vh;
     
+} */
+
+body {
+    line-height: 1;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    min-height: -webkit-fill-available;
 }
+
+  
+  html {
+    height: -webkit-fill-available;
+  }
 
 .container {
     padding: 0 2rem;
