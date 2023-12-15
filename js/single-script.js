@@ -8,3 +8,10 @@ window.addEventListener('scroll', function () {
     newMargin = Math.max(newMargin, 0);
     aboutSection.style.marginTop = newMargin + 'px';
 });
+
+const appHeight = () => {
+    const doc = document.documentElement
+    doc.style.setProperty('--app-height', `${window.innerHeight}px`)
+}
+window.addEventListener('resize', appHeight)
+appHeight()
