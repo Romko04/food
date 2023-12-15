@@ -9,9 +9,3 @@ window.addEventListener('scroll', function () {
     aboutSection.style.marginTop = newMargin + 'px';
 });
 
-const appHeight = () => {
-    const doc = document.documentElement
-    doc.style.setProperty('--app-height', `${window.innerHeight}px`)
-}
-window.addEventListener('resize', appHeight)
-appHeight()

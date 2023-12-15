@@ -219,7 +219,7 @@ body {
     
 } */
 
-/* body {
+body {
     line-height: 1;
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
@@ -230,21 +230,7 @@ body {
   
   html {
     height: -webkit-fill-available;
-  } */
-
-  :root {
-    --app-height: 100%;
- }
- 
- html,
- body {
-     padding: 0;
-     margin: 0;
-     overflow: hidden;
-     width: 100vw;
-     height: 100vh;
-     height: var(--app-height);
- }
+  }
 
 .container {
     padding: 0 2rem;
@@ -438,7 +424,7 @@ margin-right: auto;
     margin-bottom: 3.3rem;
     position: fixed;
     /* right: 0; */
-    top: 88vh;
+    bottom: 0;
     z-index: 3;
     max-width: 50rem;
     width: 100%;
