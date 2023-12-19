@@ -1,6 +1,16 @@
 
 /*Ініціалізація свайперів */
 document.addEventListener('DOMContentLoaded', function () {
+    const slidesNav = document.querySelectorAll('.footer__navigation-list__item-link')
+    let number = 4
+    if (slidesNav && slidesNav.length < 4) {
+        number = slidesNav.length
+        const nav = document.querySelector('.nav__wrapper')
+        nav.classList.add('nav--less')
+
+    }
+    
+
     let swiper = new Swiper('.foods__wrapper', {
         slidesPerView: 1.3,
         spaceBetween: 20,
@@ -16,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
         spaceBetween: 25,
         breakpoints: {
             356: {
-                slidesPerView: 4
+                slidesPerView: number
             }
         }
     });

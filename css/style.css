@@ -469,6 +469,7 @@ transition: all ease .5s;
     opacity: 1;
     transform: translateX(0);
 }
+
 .footer__navigation-list__item {
     display: flex;
     flex-direction: column;
@@ -478,9 +479,15 @@ transition: all ease .5s;
     border-radius: 1rem;
 background: #F90;
 padding:  1.3rem 0.3rem 1.3rem 0.3rem;
-/* height: 4.375rem;
-width: 4.375rem; */
-
+}
+.nav__wrapper.nav--less .swiper-slide {
+    width: 7rem!important;
+}
+.nav--less .swiper-wrapper{
+    justify-content: center!important;
+}
+.nav--less .swiper-slide:last-child{
+    margin-right: 0!important;
 }
 .footer__navigation-list__item-value {
     color: #FFF;
@@ -558,14 +565,15 @@ margin-bottom: 2.6rem;
     gap: 1rem;
 }
 .about__specs-list__item {
-    background-color:rgba(193, 176, 176, 0.15);
+    background-color: rgba(193, 176, 176, 0.15);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.2rem;
     padding: 1.4rem 2rem;
     border-radius: 50%;
-    aspect-ratio: 1/1;
+    height: 6.9rem;
+    width: 6.9rem;
 }
 .about__title{
     color: #000;
