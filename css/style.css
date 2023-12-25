@@ -139,7 +139,7 @@ td {
 html {
     font-size: calc(100vw / 1920 * 10);
 }
-@media (max-width: 1240px) {
+@media (max-width: 1179px) {
     html {
         font-size: calc(100vw / 768 * 10);
     }
@@ -646,6 +646,10 @@ letter-spacing: -0.0255rem;
 
 
  @media (min-width: 768px) {
+    .back-icon {
+            width: 6.2rem;
+            height: 6.2rem;
+        }
     .wrapper{
         max-width: 96rem;
     }
@@ -728,7 +732,7 @@ height: 3.8rem;
     .cases__slide-text__calories{
         font-size: 2.7rem;
     }
-    .foods{
+    .wrapper{
         padding-bottom: 22.5rem;
     }
     .main {
@@ -774,9 +778,9 @@ font-size: 1.7rem;
     .wrapper{
         max-width: 194rem;
     }
-    .foods{
+    /* .foods{
         height: 100vh;
-    }
+    } */
     .about{
         max-width: 90rem;
     }
@@ -784,16 +788,21 @@ font-size: 1.7rem;
         height: 96rem;
     }
     .main {
-        height: 100vh;
+        height: 100%;
     }
     /* .container--single{
         height: 100vh;
     } */
     .footer{
-        bottom: 15.6rem;
+        bottom: 0;
     }
     .header__content{
         padding-top: 3.6rem;
+    }
+   }
+   @media (min-width: 1179px) {
+    .main {
+        height: 100vh;
     }
    }
    /*

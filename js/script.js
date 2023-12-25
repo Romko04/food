@@ -12,12 +12,18 @@ document.addEventListener('DOMContentLoaded', function () {
     
 
     let swiper = new Swiper('.foods__wrapper', {
-        slidesPerView: 1.3,
+        // slidesPerView: 1,
         breakpoints: {
+            300: {
+                slidesPerView: 1.3
+            },
             500: {
                 slidesPerView: 1.5
             },
-            1240: {
+            1000: {
+                slidesPerView: 1.5
+            },
+            1179: {
                 slidesPerView: 3.5
             }
         },
