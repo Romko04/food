@@ -645,17 +645,155 @@ letter-spacing: -0.0255rem;
 }
 
 
-/* @media (max-width: 21.4375rem) {
-    .daily__content{
-         flex-direction: column;
-         gap: 1.0625rem;
-     }
-     .daily__content-right{
-         width: 65%;
-         padding: 0.5rem 1rem;
-     }
+ @media (min-width: 768px) {
+    .wrapper{
+        max-width: 96rem;
+    }
+    .swiper-slide__img-link{
+        height: 49rem;
+    }
+    .swiper-slide{
+        width: 49rem!important;
+    }
+    .swiper__slide-nav{
+        width: 10.9rem!important;
+         height: 10.9rem!important;
+    }
+    .footer__navigation-list__item-link{
+        width: 10.9rem!important;
+         height: 10.9rem!important;
+    }
+    .footer__navigation-list__item{
+        padding: 2.2rem 0;
+    }
+    .header__icon{
+        width: 13rem;
+        height: 6rem;
+    }
+    .header__icon--settings{
+        width: 3.7rem;
+height: 3.8rem;
+    }
+    .nav__wrapper.nav--less .swiper-slide{
+        width: 10.9rem!important;
 
+    }
+    .swiper__icon{
+        /* margin-top: 2rem; */
+        width: 4rem;
+        height: 3.5rem;
+        margin-bottom: 1rem;
+    }
+    .footer__navigation-list__item-value{
+        font-size: 1.7rem;
+    }
+
+    
+    .footer{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .swiper__slide-nav:last-child{
+        margin-right: 0!important;
+    }
+    .daily__content-name{
+        font-size: 3rem;
+    }
+    .daily{
+        margin: 7.1rem 0;
+    }
+    .daily__content-value{
+        font-size: 2.4rem;
+    }
+    .daily__content-numb{
+        font-size: 5.1rem;
+    }
+    .daily__content-variable{
+        font-size: 2.7rem;
+    }
+    .swiper-slide__day{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .swiper-slide__date{
+        font-size: 2.5rem;
+    }
+    .cases__slide-title{
+        font-size: 3.3rem;
+    }
+    .cases__slide-text{
+        font-size: 2.3rem;
+    }
+    .cases__slide-text__calories{
+        font-size: 2.7rem;
+    }
+    .foods{
+        padding-bottom: 22.5rem;
+    }
+    .main {
+        height: 100%;
+    }
+    .about{
+        max-width: 65rem;
+        margin: 0 auto;
+    }
+    .title{
+        font-size: 4.4rem;
+    }
+    .about__specs-list{
+        justify-content: flex-end;
+    }
+    .about__specs-list__item{
+        width: 12.8rem;
+        height: 12.8rem;
+    }
+    .about__specs-list__item{
+        justify-content: center;
+    }
+    .about__specs-list__item-value{
+        font-size: 1.6rem;
+    }
+    .about__specs-list__item-numb{
+        font-size: 2.7rem;
+    }
+    .about__specs-list__item-measure{
+font-size: 1.7rem;
+    }
+    .about__title{
+        font-size: 3.3rem;
+    }
+    .about__ingredients-list__item{
+        font-size: 2.4rem;
+    }
+    .about__prescription p{
+        font-size: 2.4rem;
+    }
    }
+   @media (min-width: 1000px) {
+    .wrapper{
+        max-width: 194rem;
+    }
+    .foods{
+        height: 100vh;
+    }
+    .about{
+        max-width: 90rem;
+    }
+    .background__img{
+        height: 96rem;
+    }
+    .main {
+        height: auto;
+    }
+    .container--single{
+        height: 100vh;
+    }
+    .header__content{
+        padding-top: 3.6rem;
+    }
+   }
+   /*
    @media (max-width: 25.9375rem) {
      .about__specs-list__item{
          padding: 0.575rem 0.89rem;
