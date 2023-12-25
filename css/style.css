@@ -784,10 +784,13 @@ font-size: 1.7rem;
         height: 96rem;
     }
     .main {
-        height: auto;
-    }
-    .container--single{
         height: 100vh;
+    }
+    /* .container--single{
+        height: 100vh;
+    } */
+    .footer{
+        bottom: 15.6rem;
     }
     .header__content{
         padding-top: 3.6rem;
