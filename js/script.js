@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
             },
             500: {
-                slidesPerView: 1.5,
-                slidesOffsetBefore: 50,
+                slidesPerView: 1.9,
+                slidesOffsetBefore: 70,
                 centeredSlides: false,
-
+                spaceBetween: 30,
             },
             // 1000: {
             //     slidesPerView: 1.9
