@@ -643,10 +643,15 @@ letter-spacing: -0.0255rem;
     line-height: 118%; /* 15.34px */
     letter-spacing: -0.0255rem;
 }
-
+.daily__content--mobile{
+    display: none;
+} 
 
  @media (min-width: 768px) {
-    
+    .daily__content{
+        max-width: 59rem;
+        margin: 0 auto;
+    }
     .back-icon {
             width: 6.2rem;
             height: 6.2rem;
@@ -657,10 +662,10 @@ letter-spacing: -0.0255rem;
     .swiper-slide__img-link{
         height: 49rem;
     }
-    .swiper-slide{
+    /* .swiper-slide{
         width: 49rem!important;
-    }
-    .swiper__slide-nav{
+    } */
+    /* .swiper__slide-nav{
         width: 10.9rem!important;
          height: 10.9rem!important;
     }
@@ -670,7 +675,7 @@ letter-spacing: -0.0255rem;
     }
     .footer__navigation-list__item{
         padding: 2.2rem 0;
-    }
+    } */
     .header__icon{
         width: 13rem;
         height: 6rem;
@@ -693,15 +698,15 @@ height: 3.8rem;
         font-size: 1.7rem;
     }
 
-    
+
     .footer{
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
+        max-width: 68rem;
+        left: 50%;
+        right: 0;
+        transform: translateX(-50%);
     }
-    .footer__container{
-        max-width: 75rem;
-    }
+    
+    
     .swiper__slide-nav:last-child{
         margin-right: 0!important;
     }
@@ -779,6 +784,25 @@ font-size: 1.7rem;
     }
    }
    @media (min-width: 1000px) {
+    .daily__content{
+        display: none;
+    }
+    .header__container{
+        display: flex;
+        align-items: center;
+        padding-top: 3.8rem;
+    }
+    .daily__content--mobile{
+        display: flex;
+        margin: 0;
+        margin-right: 26.7rem;
+        width: 100.9rem;
+    }
+    .header__content{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
     .wrapper{
         max-width: 194rem;
     }
@@ -808,7 +832,20 @@ font-size: 1.7rem;
     .main {
         height: 100vh;
     }
+    .footer{
+        width: auto;
+        max-width: 100%;
+    }
    }
+   /* @media (min-width: 890px) {
+    .footer{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    } 
+
+   } */
+   
    /*
    @media (max-width: 25.9375rem) {
      .about__specs-list__item{
