@@ -784,25 +784,7 @@ font-size: 1.7rem;
     }
    }
    @media (min-width: 1000px) {
-    .daily__content{
-        display: none;
-    }
-    .header__container{
-        display: flex;
-        align-items: center;
-        padding-top: 3.8rem;
-    }
-    .daily__content--mobile{
-        display: flex;
-        margin: 0;
-        margin-right: 26.7rem;
-        width: 100.9rem;
-    }
-    .header__content{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
+    
     .wrapper{
         max-width: 194rem;
     }
@@ -829,6 +811,25 @@ font-size: 1.7rem;
     }
    }
    @media (min-width: 1179px) {
+    .daily__content{
+        display: none;
+    }
+    .header__container{
+        display: flex;
+        align-items: center;
+        padding-top: 3.8rem;
+    }
+    .daily__content--mobile{
+        display: flex;
+        margin: 0;
+        margin-right: 26.7rem;
+        width: 100.9rem;
+    }
+    .header__content{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
     .main {
         height: 100vh;
     }
