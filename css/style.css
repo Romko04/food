@@ -652,7 +652,7 @@ letter-spacing: -0.0255rem;
         align-items: flex-end;
     } */
     .swiper-slide--food{
-        width: 50rem!important;
+        width: 49rem!important;
     }
     .daily__content{
         max-width: 59rem;

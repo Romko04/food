@@ -20,9 +20,9 @@ document.addEventListener('DOMContentLoaded', function () {
             500: {
                 slidesPerView: 1.5
             },
-            1000: {
-                slidesPerView: 1.5
-            },
+            // 1000: {
+            //     slidesPerView: 1.9
+            // },
             1179: {
                 slidesPerView: 3.5
             }
