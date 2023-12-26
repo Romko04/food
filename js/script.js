@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             },
             500: {
-                slidesPerView: "auto",
+                slidesPerView: 1.5,
                 slidesOffsetBefore: 50,
                 centeredSlides: false,
 
