@@ -646,6 +646,7 @@ letter-spacing: -0.0255rem;
 
 
  @media (min-width: 768px) {
+    
     .back-icon {
             width: 6.2rem;
             height: 6.2rem;
@@ -697,6 +698,9 @@ height: 3.8rem;
         max-width: 100%;
         display: flex;
         justify-content: center;
+    }
+    .footer__container{
+        max-width: 71rem;
     }
     .swiper__slide-nav:last-child{
         margin-right: 0!important;
