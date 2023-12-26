@@ -9,16 +9,21 @@ document.addEventListener('DOMContentLoaded', function () {
         nav.classList.add('nav--less')
 
     }
-    
+
 
     let swiper = new Swiper('.foods__wrapper', {
         // slidesPerView: 1,
         breakpoints: {
             300: {
-                slidesPerView: 1.3
+                slidesPerView: 1.5,
+                centeredSlides: true,
+
             },
             500: {
-                slidesPerView: 1.5
+                slidesPerView: "auto",
+                slidesOffsetBefore: 50,
+                centeredSlides: false,
+
             },
             // 1000: {
             //     slidesPerView: 1.9
@@ -28,11 +33,10 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         },
         spaceBetween: 20,
-        centeredSlides: true,
     });
 
     let today = new Date().getDay();
-    
+
     swiper.slideTo(today - 1, 1000, true);
     console.log(number);
     let swiperNav = new Swiper('.nav__wrapper', {
@@ -47,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     });
-    
+
 
 })
 
