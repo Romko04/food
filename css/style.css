@@ -224,13 +224,13 @@ body {
     line-height: 1;
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
-    background-color: #fff;
-    min-height: -webkit-fill-available;
+    background-color: #FFFDED;
+    min-height: 100vh;
 }
 
   
   html {
-    height: -webkit-fill-available;
+    height: 100vh;
   }
 
 .container {
@@ -648,6 +648,12 @@ letter-spacing: -0.0255rem;
 } 
 
  @media (min-width: 768px) {
+    /* .swiper-slide__text-top{
+        align-items: flex-end;
+    } */
+    .swiper-slide--food{
+        width: 50rem!important;
+    }
     .daily__content{
         max-width: 59rem;
         margin: 0 auto;
@@ -658,9 +664,10 @@ letter-spacing: -0.0255rem;
         }
     .wrapper{
         max-width: 96rem;
+        height: 100vh;
     }
     .swiper-slide__img-link{
-        height: 49rem;
+        height: 35rem;
     }
     /* .swiper-slide{
         width: 49rem!important;
@@ -714,7 +721,7 @@ height: 3.8rem;
         font-size: 3rem;
     }
     .daily{
-        margin: 7.1rem 0;
+        margin: 5.1rem 0;
     }
     .daily__content-value{
         font-size: 2.4rem;
@@ -741,11 +748,11 @@ height: 3.8rem;
     .cases__slide-text__calories{
         font-size: 2.7rem;
     }
-    .wrapper{
+    /* .wrapper{
         padding-bottom: 22.5rem;
-    }
+    } */
     .main {
-        height: 100%;
+        height: 80vh;
     }
     .about{
         max-width: 65rem;
@@ -809,8 +816,12 @@ font-size: 1.7rem;
     .header__content{
         padding-top: 3.6rem;
     }
+
    }
    @media (min-width: 1179px) {
+    .swiper-slide__img-link{
+        height: 40rem;
+    }
     .daily__content{
         display: none;
     }
